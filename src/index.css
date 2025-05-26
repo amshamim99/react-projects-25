@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+/* star-rating-hover-color */
+.active{
+    color: #fff700;
+}
+.inactive{
+    color: #000;
+}
+/* star-rating-hover-color end */
