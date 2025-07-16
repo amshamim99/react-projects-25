@@ -11,6 +11,7 @@ import LightDarkMode from './components/light-dark-mode/LightDarkMode'
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator'
 import TabTest from './components/custom-tabs/TabTest'
 import ModalTest from './components/custom-modal-popup/ModalTest'
+import GithubProfile from './components/github-profile-finder/GithubProfile'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
       <TabTest/>
       <ModalTest/>
+      <GithubProfile/>
     </div>
 
   )
