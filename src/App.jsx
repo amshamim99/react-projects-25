@@ -10,6 +10,7 @@ import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator'
 import LightDarkMode from './components/light-dark-mode/LightDarkMode'
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator'
 import TabTest from './components/custom-tabs/TabTest'
+import ModalTest from './components/custom-modal-popup/ModalTest'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <LightDarkMode />
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
       <TabTest/>
+      <ModalTest/>
     </div>
 
   )

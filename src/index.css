@@ -85,7 +85,7 @@
 }
 /* .light-dark-mode-end */
 
-
+/* tabs */
 .tab-item{
     display: inline-flex;
     font-size: 30px;
@@ -101,4 +101,19 @@
     border-color: #000;
     background-color: #a1d600;
     color: #fff;
+}
+/* modal */
+.modal-content{
+    animation-name: animateModal;
+    animation-duration: 0.5s;
+}
+@keyframes animateModal{
+    from{
+        top: -200px;
+        opacity: 0;
+    }
+    to{
+        top:0;
+        opacity: 1;
+    }
 }
