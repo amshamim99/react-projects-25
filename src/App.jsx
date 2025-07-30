@@ -16,6 +16,7 @@ import SearchAutoComplete from './components/search-autocomplete/SearchAutoCompl
 import TicTacToe from './components/tic-tac-toe/TicTacToe'
 import UseFetchTestHook from './components/usefetch-hook/Test'
 import UseOnclickOutsideTest from './components/use-outside-click/test'
+import UseWindowResizeTest from './components/windo-resize/test';
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
       <TicTacToe/>
       <UseFetchTestHook/>
       <UseOnclickOutsideTest/>
+      <UseWindowResizeTest/>
     </div>
 
   )
