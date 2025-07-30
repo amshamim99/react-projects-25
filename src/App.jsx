@@ -17,6 +17,7 @@ import TicTacToe from './components/tic-tac-toe/TicTacToe'
 import UseFetchTestHook from './components/usefetch-hook/Test'
 import UseOnclickOutsideTest from './components/use-outside-click/test'
 import UseWindowResizeTest from './components/windo-resize/test';
+import ScroolToTopAndBottom from './components/scroll-top-to-bottom'
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <UseFetchTestHook/>
       <UseOnclickOutsideTest/>
       <UseWindowResizeTest/>
+      <ScroolToTopAndBottom/>
     </div>
 
   )
