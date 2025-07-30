@@ -15,6 +15,7 @@ import GithubProfile from './components/github-profile-finder/GithubProfile'
 import SearchAutoComplete from './components/search-autocomplete/SearchAutoComplete'
 import TicTacToe from './components/tic-tac-toe/TicTacToe'
 import UseFetchTestHook from './components/usefetch-hook/Test'
+import UseOnclickOutsideTest from './components/use-outside-click/test'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
       <SearchAutoComplete/>
       <TicTacToe/>
       <UseFetchTestHook/>
+      <UseOnclickOutsideTest/>
     </div>
 
   )
